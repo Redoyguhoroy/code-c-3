@@ -1,0 +1,12 @@
+int main()
+{
+  float cm,m,km;
+  printf("enter the lenght in cm=");
+  scanf("%f",& cm);
+  m=cm/100;
+  km=cm/100000;
+
+  printf("The value m=%f\n",m);
+  printf("The value km=%f\n",km);
+  return 0;
+}
